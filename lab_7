@@ -1,0 +1,48 @@
+//1
+#include <stdio.h>
+
+int main()
+{
+   int k;
+   for (k=1;k<6;k++)
+   printf("♡\n");
+
+    return 0;
+}
+
+
+//2
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+
+ int main(){
+     
+    int num;
+    int p=0;
+    int avg; 
+    float s=0.0;
+    float a =0.0;
+     
+     
+    printf("ile liczb:");
+    scanf("%d",&num);
+    for (p=0;p<num;p++){ 
+    
+        printf("wpisz liscby:");
+        scanf("%d", &avg);
+        if (avg%2==0){
+            s= s+avg;
+        }else{
+            printf("liczby nieparz.\n");
+        }
+        
+}
+a=s/num;
+printf("śr:%f\n",a);
+     
+     
+     
+return 0 ;
+ }
